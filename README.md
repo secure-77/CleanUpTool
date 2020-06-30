@@ -1,7 +1,7 @@
 # CleanUpTool
 
 Simple tool to delete files or folders older then [specified days]
-
+```
 Options:
   -m, --mode=MODE            operation mode (MODE= file or folder)
   -f, --filter=FILTER        Wildcard FILTER (e.g. '*.pdf' for all pdf files
@@ -9,6 +9,7 @@ Options:
   -d, --days=VALUE           days
       --debug                debug mode
   -h, --help                 show this help
+```
 
 Examples:
 
