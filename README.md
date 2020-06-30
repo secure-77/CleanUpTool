@@ -23,3 +23,5 @@ Deleting all pdf files older then 4 days in C:\Temp
 Deleting all folders (including content) older then 7 days in C:\Trash
 
 ```CleanUpTool.exe --mode=folder -d=7 C:\Trash```
+
+Download latest Release: https://github.com/secure-77/CleanUpTool/files/4854366/CleanUpTool_1_0.zip
