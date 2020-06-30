@@ -95,6 +95,8 @@ namespace CleanUpTool
                     DeleteFolders(path, filter, debug, targetDate);
                 }
 
+                ShowInfo("done");
+
             }
             catch (Exception e)
             {
@@ -129,9 +131,6 @@ namespace CleanUpTool
             {
                 System.IO.File.Delete(filePath);            
             }
-
-            ShowInfo("files deleted");
-
         }
 
         static void DeleteFolders(String path, String filter, Boolean debug, DateTime targetDate)
@@ -164,8 +163,6 @@ namespace CleanUpTool
                 System.IO.Directory.Delete(diretoryPath, true);
             }
 
-            ShowInfo("directories deleted");
-            Environment.Exit(0);
         }
 
 
