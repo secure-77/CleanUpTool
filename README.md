@@ -2,6 +2,9 @@
 
 Simple tool to delete files or folders older then [specified days]
 ```
+Usage: CleanUpTool.exe [OPTIONS]+ path
+delete files or folders older then x days
+
 Options:
   -m, --mode=MODE            operation mode (MODE= file or folder)
   -f, --filter=FILTER        Wildcard FILTER (e.g. '*.pdf' for all pdf files
