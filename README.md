@@ -13,7 +13,9 @@ Options:
 Examples:
 
 Deleting all pdf files older then 4 days in C:\Temp
+
 ```CleanUpTool.exe --mode=file -d=4 -f=*.pdf C:\Temp```
 
 Deleting all folders (including content) older then 7 days in C:\Trash
+
 ```CleanUpTool.exe --mode=folder -d=7 C:\Trash```
